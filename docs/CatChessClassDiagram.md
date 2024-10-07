@@ -30,7 +30,7 @@ classDiagram
             +move(p:Position) bool*
         }
         class King{
-            +move(p:Position) bool
+            +moveable(pstart:Position, pend:Position) bool
         }
 
         class Position {
